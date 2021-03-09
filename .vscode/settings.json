@@ -26,6 +26,8 @@
       }
     },
     "eslint.run": "onType",
+    // "eslint.nodePath": "/node_modules/",
+    // "eslint.options": {​​​​​ "configFile": "/.eslintrc.js" },​​​​​
     "markdown-preview-enhanced.enableExtendedTableSyntax": true,
     "markdown-preview-enhanced.enableScriptExecution": true,
     "markdown-preview-enhanced.previewTheme": "github-light.css",

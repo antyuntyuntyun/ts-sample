@@ -1,7 +1,7 @@
 import Calc from '../src/calc';
 
 describe('sum test', () => {
-  var c = new Calc();
+  let c = new Calc();
   beforeEach(() => {
     c = new Calc();
   });

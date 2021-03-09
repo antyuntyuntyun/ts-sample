@@ -25,9 +25,13 @@
       ]
     },
     "types": [
-      "@types/node"
+      "node",
+      "jest"
     ]
   },
+  "include": [
+    "src/**/*",
+  ],
   "exclude": [
     "node_modules",
     "dist",

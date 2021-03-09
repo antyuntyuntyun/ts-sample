@@ -5,32 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
+    "lint": "eslint --ext .ts --ignore-path .gitignore .",
+    "lint:test": "eslint --ext .",
     "lint:fix": "eslint --fix --ext .js,.ts --ignore-path .gitignore .",
     "build": "webpack",
     "prepare": "webpack --config webpack.config.js",
     "watch": "webpack --config webpack.dev.js --watch"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ],
-    "transform": {
-      "^.+\\.(ts|tsx)$": "ts-jest"
-    },
-    "globals": {
-      "ts-jest": {
-        "tsConfigFile": "tsconfig.json"
-      }
-    },
-    "testMatch": [
-      "**/__tests__/*.spec.+(ts|tsx|js)"
-    ]
-  },
-  "bin": {
-    "ts-sample": "./bin/ts-sample.js"
   },
   "author": "antyuntyun",
   "license": "ISC",
